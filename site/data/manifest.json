@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "subjects": [
+  {
+   "id": "biology",
+   "name": "Biology",
+   "code": "bio",
+   "accent": "#7E9070",
+   "file": "data/biology.json",
+   "topics": 8,
+   "subtopics": 25,
+   "los": 434,
+   "specStatements": 541,
+   "practicals": 10,
+   "bytes": 360298,
+   "resources": 447,
+   "resourceFile": "data/res-biology.json",
+   "unverifiedCandidates": 38
+  },
+  {
+   "id": "chemistry",
+   "name": "Chemistry",
+   "code": "chem",
+   "accent": "#A58E5B",
+   "file": "data/chemistry.json",
+   "topics": 11,
+   "subtopics": 33,
+   "los": 576,
+   "specStatements": 531,
+   "practicals": 8,
+   "bytes": 412818,
+   "resources": 499,
+   "resourceFile": "data/res-chemistry.json",
+   "unverifiedCandidates": 44
+  },
+  {
+   "id": "physics",
+   "name": "Physics",
+   "code": "phys",
+   "accent": "#6F8795",
+   "file": "data/physics.json",
+   "topics": 9,
+   "subtopics": 31,
+   "los": 479,
+   "specStatements": 493,
+   "practicals": 10,
+   "bytes": 359991,
+   "resources": 528,
+   "resourceFile": "data/res-physics.json",
+   "unverifiedCandidates": 4
+  }
+ ],
+ "resourceSchema": 2
+}

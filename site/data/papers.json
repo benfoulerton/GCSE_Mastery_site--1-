@@ -1,0 +1,243 @@
+{
+"schema": 1,
+"generated": "2026-11-05",
+"source": "filestore.aqa.org.uk (official AQA)",
+"papers": [
+{
+"id": "PP-BIO-2023-JUN-P1-H",
+"subject": "biology",
+"board": "AQA",
+"spec": "8461",
+"year": 2023,
+"series": "June 2023",
+"paper": 1,
+"tier": "Higher",
+"code": "8461/1H",
+"date": "Tue 16 May 2023",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84611H-QP-JUN23.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84611H-MS-JUN23.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84611H-WRE-JUN23.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Biology 8461/1H, Higher, June 2023. Examiner report opened and matches."
+},
+{
+"id": "PP-BIO-2023-JUN-P2-H",
+"subject": "biology",
+"board": "AQA",
+"spec": "8461",
+"year": 2023,
+"series": "June 2023",
+"paper": 2,
+"tier": "Higher",
+"code": "8461/2H",
+"date": "Fri 9 Jun 2023",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84612H-QP-JUN23.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84612H-MS-JUN23.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84612H-WRE-JUN23.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Biology 8461/2H, Higher, June 2023. Examiner report opened and matches."
+},
+{
+"id": "PP-BIO-2022-JUN-P1-H",
+"subject": "biology",
+"board": "AQA",
+"spec": "8461",
+"year": 2022,
+"series": "June 2022",
+"paper": 1,
+"tier": "Higher",
+"code": "8461/1H",
+"date": "June 2022",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84611H-QP-JUN22.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84611H-MS-JUN22.PDF"
+},
+"er": null,
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Biology 8461/1H, Higher, June 2022. No examiner report link was verified."
+},
+{
+"id": "PP-CHE-2023-JUN-P1-H",
+"subject": "chemistry",
+"board": "AQA",
+"spec": "8462",
+"year": 2023,
+"series": "June 2023",
+"paper": 1,
+"tier": "Higher",
+"code": "8462/1H",
+"date": "Mon 22 May 2023",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84621H-QP-JUN23.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84621H-MS-JUN23.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84621H-WRE-JUN23.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Chemistry 8462/1H, Higher, June 2023. Examiner report opened and matches."
+},
+{
+"id": "PP-CHE-2023-JUN-P2-H",
+"subject": "chemistry",
+"board": "AQA",
+"spec": "8462",
+"year": 2023,
+"series": "June 2023",
+"paper": 2,
+"tier": "Higher",
+"code": "8462/2H",
+"date": "Tue 13 Jun 2023",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84622H-QP-JUN23.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84622H-MS-JUN23.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84622H-WRE-JUN23.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Chemistry 8462/2H, Higher, June 2023. Examiner report opened and matches."
+},
+{
+"id": "PP-CHE-2022-JUN-P1-H",
+"subject": "chemistry",
+"board": "AQA",
+"spec": "8462",
+"year": 2022,
+"series": "June 2022",
+"paper": 1,
+"tier": "Higher",
+"code": "8462/1H",
+"date": "June 2022",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84621H-QP-JUN22.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84621H-MS-JUN22.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84621H-WRE-JUN22.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Chemistry 8462/1H, Higher, June 2022. Examiner report opened and matches."
+},
+{
+"id": "PP-CHE-2022-JUN-P2-H",
+"subject": "chemistry",
+"board": "AQA",
+"spec": "8462",
+"year": 2022,
+"series": "June 2022",
+"paper": 2,
+"tier": "Higher",
+"code": "8462/2H",
+"date": "June 2022",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84622H-QP-JUN22.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84622H-MS-JUN22.PDF"
+},
+"er": null,
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Chemistry 8462/2H, Higher, June 2022. No examiner report link was verified."
+},
+{
+"id": "PP-PHY-2023-JUN-P1-H",
+"subject": "physics",
+"board": "AQA",
+"spec": "8463",
+"year": 2023,
+"series": "June 2023",
+"paper": 1,
+"tier": "Higher",
+"code": "8463/1H",
+"date": "Thu 25 May 2023",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84631H-QP-JUN23.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84631H-MS-JUN23.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84631H-WRE-JUN23.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Physics 8463/1H, Higher, June 2023. Examiner report opened and matches."
+},
+{
+"id": "PP-PHY-2023-JUN-P2-H",
+"subject": "physics",
+"board": "AQA",
+"spec": "8463",
+"year": 2023,
+"series": "June 2023",
+"paper": 2,
+"tier": "Higher",
+"code": "8463/2H",
+"date": "Fri 16 Jun 2023",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84632H-QP-JUN23.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84632H-MS-JUN23.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-84632H-WRE-JUN23.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Physics 8463/2H, Higher, June 2023. Examiner report opened and matches."
+},
+{
+"id": "PP-PHY-2022-JUN-P1-H",
+"subject": "physics",
+"board": "AQA",
+"spec": "8463",
+"year": 2022,
+"series": "June 2022",
+"paper": 1,
+"tier": "Higher",
+"code": "8463/1H",
+"date": "June 2022",
+"marks": 100,
+"qp": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84631H-QP-JUN22.PDF"
+},
+"ms": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84631H-MS-JUN22.PDF"
+},
+"er": {
+"u": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-84631H-WRE-JUN22.PDF"
+},
+"ver": "VERIFIED",
+"vn": "Question paper and mark scheme opened on 5 Nov 2026; both state AQA GCSE Physics 8463/1H, Higher, June 2022. Examiner report opened and matches."
+}
+]
+}

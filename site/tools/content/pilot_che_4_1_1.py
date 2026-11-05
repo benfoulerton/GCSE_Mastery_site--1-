@@ -1,0 +1,33 @@
+"""Chemistry 4.1.1 pilot: atomic structure sections 4.1.1.3 to 4.1.1.7. Written from the specification and study aids in data/chemistry.json."""
+L = lambda g, n: 'C-4.1.1.%d-LO%02d' % (g, n)
+CARDS = [
+ ('fact', [4], [L(4,1)], 'State the relative charge of a proton, a neutron and an electron.', 'Proton +1, neutron 0, electron −1.'),
+ ('understand', [4], [L(4,2)], 'Why is an atom electrically neutral?', 'It has the same number of protons (positive) as electrons (negative), so the charges cancel.'),
+ ('define', [4], [L(4,3)], 'What is the atomic number?', 'The number of protons in the nucleus of an atom. It identifies the element.'),
+ ('define', [5], [L(5,5)], 'What is the mass number?', 'The total number of protons and neutrons in the nucleus of an atom.'),
+ ('define', [5], [L(5,6)], 'What are isotopes?', 'Atoms of the same element (same number of protons) with different numbers of neutrons.'),
+ ('fact', [5], [L(5,4)], 'What are the relative masses of a proton, a neutron and an electron?', 'Proton 1, neutron 1, electron very small (almost zero).'),
+ ('fact', [5], [L(5,3)], 'Where is most of the mass of an atom?', 'In the nucleus, because protons and neutrons are much heavier than electrons.'),
+ ('fact', [5], [L(5,1),L(5,2)], 'What is the approximate radius of an atom, and how does the nucleus compare?', 'About 0.1 nm (1 × 10⁻¹⁰ m). The nucleus has a radius about 1/10 000 of the atom.'),
+ ('calc', [5], [L(5,8)], 'An atom of sodium is written ²³₁₁Na. How many protons, neutrons and electrons does it have?', '11 protons, 12 neutrons (23 − 11), and 11 electrons (neutral atom).'),
+ ('calc', [6], [L(6,2)], 'Chlorine is 75% chlorine-35 and 25% chlorine-37. Calculate its relative atomic mass.', '(75 × 35 + 25 × 37) ÷ 100 = 35.5.'),
+ ('define', [6], [L(6,1)], 'Why is relative atomic mass often not a whole number?', 'It is an average of the masses of an element\'s isotopes, taking account of how much of each there is.'),
+ ('fact', [7], [L(7,1)], 'Which energy level do electrons fill first?', 'The lowest available energy level (the shell closest to the nucleus).'),
+ ('calc', [7], [L(7,3)], 'Write the electronic structure of magnesium (atomic number 12) and chlorine (17).', 'Magnesium 2,8,2. Chlorine 2,8,7.'),
+ ('fact', [3], [L(3,3)], 'Describe the plum pudding model of the atom.', 'A ball of positive charge with negative electrons embedded in it.'),
+ ('understand', [3], [L(3,4)], 'What did the alpha particle scattering experiment show, and what did that lead to?', 'Most alpha particles passed straight through, a few were deflected and a very few bounced back. So the positive charge and mass are concentrated in a tiny nucleus, which replaced the plum pudding model.'),
+ ('fact', [3], [L(3,5)], 'How did Bohr adapt the nuclear model?', 'He proposed that electrons orbit the nucleus at specific distances, in shells (energy levels).'),
+]
+def mc(g, los, d, q, opts, a, ex): return dict(refs=['4.1.1.%d' % x for x in g], los=los, d=d, q=q, opts=opts, a=a, ex=ex)
+QS = [
+ mc([4],[L(4,1)],1,'What is the relative charge of a neutron?',['+1','−1','0','+2'],2,['That is a proton.','That is an electron.','Correct. Neutrons are neutral.','No particle in the atom has +2.']),
+ mc([4],[L(4,3)],1,'The atomic number of an atom is the number of…',['neutrons','protons','protons plus neutrons','electron shells'],1,['Neutrons are not counted in the atomic number.','Correct. The atomic number is the number of protons.','That is the mass number.','The number of shells is unrelated.']),
+ mc([5],[L(5,6)],2,'Which statement describes isotopes of an element?',['Same number of neutrons, different protons','Same number of protons, different neutrons','Same mass number, different atomic number','Different numbers of electrons only'],1,['Changing the protons changes the element.','Correct. Isotopes have the same atomic number but different mass numbers.','That describes atoms of different elements with the same mass number.','Electron number differs in ions, not isotopes.']),
+ mc([5],[L(5,8)],2,'How many neutrons are in an atom of ³⁵₁₇Cl?',['17','18','35','52'],1,['17 is the number of protons.','Correct. 35 − 17 = 18.','35 is the mass number.','52 adds protons and mass number, which is meaningless.']),
+ mc([5],[L(5,3)],1,'Where is most of the mass of an atom found?',['The electron shells','The nucleus','Evenly spread through the atom','The outer electrons'],1,['Electrons have very little mass.','Correct. Protons and neutrons are in the nucleus.','Mass is concentrated, not spread out.','Outer electrons have almost no mass.']),
+ mc([6],[L(6,2)],3,'Copper has two isotopes: 69% copper-63 and 31% copper-65. What is its relative atomic mass (1 d.p.)?',['63.6','64.0','63.0','64.4'],0,['Correct. (69 × 63 + 31 × 65) ÷ 100 = 6362 ÷ 100 = 63.6, closer to 63 because that isotope is more abundant.','This is the simple mean of 63 and 65. It ignores the percentage abundances.','This only uses the more common isotope. The 31% of copper-65 pulls the average up a little.','This swaps the percentages, so it weights copper-65 as the more abundant isotope.']),
+ mc([7],[L(7,3)],2,'What is the electronic structure of an atom of potassium (atomic number 19)?',['2,8,9','2,8,8,1','2,8,1,8','2,8,7,2'],1,['The third shell holds 8 electrons for the first 20 elements, so the 9th electron goes in a fourth shell.','Correct. Shells fill 2, then 8, then 8, with the last electron in a fourth shell.','Electrons fill inner shells first.','That adds up to 19 but fills in the wrong order.']),
+ mc([7],[L(7,3)],2,'How many electrons are in the outer shell of an atom with electronic structure 2,8,7?',['2','7','8','17'],1,['2 is the first shell.','Correct. The last number is the outer shell.','8 is the second shell.','17 is the total number of electrons.']),
+ mc([3],[L(3,3)],1,'Which model described the atom as a ball of positive charge with electrons embedded in it?',['Nuclear model','Plum pudding model','Bohr model','Solid sphere model'],1,['The nuclear model has a small central nucleus.','Correct. This is the plum pudding model.','Bohr placed electrons in shells.','The solid sphere model had no sub-atomic particles.']),
+ mc([3],[L(3,4)],2,'In the alpha scattering experiment, most alpha particles passed straight through the gold foil. What does this show?',['The atom is mostly empty space','The atom is a solid ball','Gold has no electrons','Alpha particles are neutral'],0,['Correct. Most of the atom is empty space, with a tiny dense nucleus.','If it were solid, more would be deflected or blocked.','Gold atoms have electrons.','Alpha particles are positively charged.']),
+]

@@ -1,0 +1,149 @@
+{
+ "biology": {
+  "topics": 8,
+  "subtopics": 25,
+  "sections": 98,
+  "los": 434,
+  "spec_statements_in_groups": 524,
+  "knowledge_items": {
+   "S": 858,
+   "E": 253,
+   "FLAG": 5
+  },
+  "practicals": 10,
+  "practicals_with_LO": 10,
+  "maths_items": 19,
+  "ws": 27,
+  "at": 8,
+  "ht_tagged_los": 43,
+  "missing_vs_source": [],
+  "extra_vs_source": [],
+  "missing_vs_checklist": [],
+  "extra_vs_checklist": [],
+  "sections_missing": [],
+  "subtopics_missing": [],
+  "topics_missing": [],
+  "lo_text_mismatch": [],
+  "spec_statements_total_site": 541,
+  "spec_statements_in_source": 541,
+  "spec_text_missing": [],
+  "resources": {
+   "catalogue": 447,
+   "site": 447,
+   "problems": [],
+   "unverified_candidates": 38,
+   "duplicate_ids": 0,
+   "duplicate_url_sub_type": 0,
+   "empty_urls": 0,
+   "by_verification": {
+    "PARTIALLY_VERIFIED": 210,
+    "VERIFIED": 237
+   },
+   "by_category": {
+    "video": 200,
+    "practical": 10,
+    "notes": 181,
+    "past_paper": 28,
+    "markscheme": 28
+   }
+  }
+ },
+ "chemistry": {
+  "topics": 11,
+  "subtopics": 33,
+  "sections": 125,
+  "los": 576,
+  "spec_statements_in_groups": 519,
+  "knowledge_items": {
+   "S": 903,
+   "E": 378,
+   "FLAG": 9
+  },
+  "practicals": 8,
+  "practicals_with_LO": 8,
+  "maths_items": 18,
+  "ws": 27,
+  "at": 8,
+  "ht_tagged_los": 84,
+  "missing_vs_source": [],
+  "extra_vs_source": [],
+  "missing_vs_checklist": [],
+  "extra_vs_checklist": [],
+  "sections_missing": [],
+  "subtopics_missing": [],
+  "topics_missing": [],
+  "lo_text_mismatch": [],
+  "spec_statements_total_site": 531,
+  "spec_statements_in_source": 531,
+  "spec_text_missing": [],
+  "resources": {
+   "catalogue": 499,
+   "site": 499,
+   "problems": [],
+   "unverified_candidates": 44,
+   "duplicate_ids": 0,
+   "duplicate_url_sub_type": 0,
+   "empty_urls": 0,
+   "by_verification": {
+    "PARTIALLY_VERIFIED": 217,
+    "VERIFIED": 282
+   },
+   "by_category": {
+    "video": 209,
+    "notes": 190,
+    "practical": 8,
+    "past_paper": 46,
+    "markscheme": 46
+   }
+  }
+ },
+ "physics": {
+  "topics": 9,
+  "subtopics": 31,
+  "sections": 92,
+  "los": 479,
+  "spec_statements_in_groups": 483,
+  "knowledge_items": {
+   "S": 784,
+   "E": 169,
+   "FLAG": 6
+  },
+  "practicals": 10,
+  "practicals_with_LO": 10,
+  "maths_items": 23,
+  "ws": 27,
+  "at": 7,
+  "ht_tagged_los": 81,
+  "missing_vs_source": [],
+  "extra_vs_source": [],
+  "missing_vs_checklist": [],
+  "extra_vs_checklist": [],
+  "sections_missing": [],
+  "subtopics_missing": [],
+  "topics_missing": [],
+  "lo_text_mismatch": [],
+  "spec_statements_total_site": 493,
+  "spec_statements_in_source": 493,
+  "spec_text_missing": [],
+  "resources": {
+   "catalogue": 528,
+   "site": 528,
+   "problems": [],
+   "unverified_candidates": 4,
+   "duplicate_ids": 0,
+   "duplicate_url_sub_type": 0,
+   "empty_urls": 0,
+   "by_verification": {
+    "PARTIALLY_VERIFIED": 216,
+    "VERIFIED": 312
+   },
+   "by_category": {
+    "video": 204,
+    "notes": 201,
+    "practical": 11,
+    "past_paper": 56,
+    "markscheme": 56
+   }
+  }
+ }
+}
